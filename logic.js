@@ -58,6 +58,8 @@ resetColor.addEventListener("click", function(){
 
 	//change headerColor to match selected color
 	headerColor.textContent=selectedColor;
+	this.textContent="New Colors"
+	msgDisplay.textContent="";
 
 	//change the color of the squares
 	for(let i=0;i<squares.length;i++){
