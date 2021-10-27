@@ -1,0 +1,39 @@
+body{
+	background-color: #232323;
+	margin: 0;
+}
+html{
+	height: 100%;
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	background: purple;
+}
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+h1{
+	text-align: center;
+	color: white;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+#line{
+	background-color: white;
+	height: 30%;
+	text-align: center;
+
+ 	color: black;
+}
+.active{
+	background-color: #79b2ec;
+
+}
