@@ -26,14 +26,25 @@ h1{
 
 }
 
-#line{
+#strip{
 	background-color: white;
-	height: 30%;
 	text-align: center;
-
  	color: black;
+ 	height:35px;
 }
 .active{
 	background-color: #79b2ec;
 
+}
+
+button{
+	background: none;
+	border: none;
+	height: 100%;
+	font-weight: 800;
+	font-size: inherit;
+}
+#message{
+	display: inline-block;
+	width: 20%;
 }
