@@ -11,12 +11,15 @@ html{
 	float: left;
 	margin: 1.66%;
 	background: purple;
+	border-radius: 16%;
+	transition: background 0.5s;
 }
 
 #container{
 	max-width: 600px;
-	margin: 0 auto;
-	padding-top: 10%;
+	margin: 20px auto;
+	padding-top: 5%;
+
 }
 h1{
 	text-align: center;
@@ -43,8 +46,13 @@ button{
 	height: 100%;
 	font-weight: 800;
 	font-size: inherit;
+	transition: all 0.3s;
 }
 #message{
 	display: inline-block;
 	width: 20%;
+}
+button:hover{
+	color: white;
+	background: steelblue;
 }
